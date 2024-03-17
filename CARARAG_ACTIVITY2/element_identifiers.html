@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 3.4: HTML Element Identifiers</title>
+ <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .container {
+        text-align: center;
+    }
+    table {
+        margin: 0 auto;
+        border: 2px solid white;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid white; 
+        padding: 8px; 
+    }
+    .odd-row {
+        background-color: #fff; 
+    }
+    .even-row {
+        background-color: #f2f2f2; 
+    }
+    .uppercase {
+        text-transform: uppercase; 
+    }
+    .blue-text {
+        color: blue; 
+    }
+    .bg-color {
+         background-color: #343434;
+    }
+    .white-text {
+        color: white;
+    }
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>Summary of Student Grades</h2>
+
+        <table>
+            <tr>
+                <td rowspan="2" class="uppercase bg-color white-text"><b>Student No.</b></td>
+                <td colspan="2" class="uppercase bg-color white-text"><b>Student Name</b></td>
+                <td colspan="3" class="uppercase bg-color white-text"><b>Subject Grades</b></td>
+                <td rowspan="2" class="uppercase bg-color white-text"><b>Average</b></td>
+            </tr>
+            <tr>
+                <td class="uppercase bg-color white-text"><b>Last Name</b></td>
+                <td class="uppercase bg-color white-text"><b>First Name</b></td>
+                <td class="uppercase bg-color white-text"><b>Math</b></td>
+                <td class="uppercase bg-color white-text"><b>Science</b></td>
+                <td class="uppercase bg-color white-text"><b>English</b></td>
+            </tr>
+            <tr class="even-row">
+                <td class="blue-text"><b>000-0001</b></td>
+                <td>Smith</td>
+                <td>John</td>
+                <td>90</td>
+                <td>85</td>
+                <td>95</td>
+                <td>87.5</td>
+            </tr>
+            <tr class="odd-row">
+                <td class="blue-text"><b>000-0002</b></td>
+                <td>Collins</td>
+                <td>Mary</td>
+                <td>88</td>
+                <td>92</td>
+                <td>89</td>
+                <td>89.67</td>
+            </tr>
+            <tr class="even-row">
+                <td class="blue-text"><b>000-0003</b></td>
+                <td>Smith</td>
+                <td>Robert</td>
+                <td>78</td>
+                <td>80</td>
+                <td>85</td>
+                <td>81</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

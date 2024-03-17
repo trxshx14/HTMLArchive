@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 3.3: HTML Styles</title>
+
+     <h1 style="text-align: center; color: navy;">My Personal Profile</h1>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+        }
+       
+        .container {
+            background-color: #f8f8f8;
+            padding: 17px;
+            margin: 20px auto;
+            max-width: 1790px;
+            text-align: left;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+        .profile-picture {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            float: left;
+        }
+        .name {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="profile_picture.jpg" alt="profile picture" class="profile-picture">
+        <p style="margin-top: 20px;">
+        <span style="display: inline-block; margin-bottom: 5px;"><b>Name:</b> John Doe</span><br>
+        <span style="display: inline-block; margin-bottom: 5px;"><b>Age:</b> 25</span><br>
+        <span style="display: inline-block; margin-bottom: 5px;"><b>Occupation:</b> Web Developer</span><br>
+        <span style="display: inline-block; margin-bottom: 5px;"><b>Location:</b> City, Country</span>
+        </p>
+    </div>
+
+    <p style="color: #555; margin-left: 20px;">Hello! I'm John Doe, a passionate web developer with expertise in HTML, CSS, and Javascript. I love creating responsive and visually appealing websites. In my free<br> time, I enjoy experimenting with new coding techniques and frameworks.
+</p>
+
+<ul>
+    <li style="color: green;"><b>HTML</b></li>
+    <li style="color: blue;"><b>CSS</b></li>
+    <li style="color: yellow;"><b>JavaScript</b></li>
+    <li style="color: red;"><b>React</b></li>
+</ul>
+
+
+</body>
+</html>
